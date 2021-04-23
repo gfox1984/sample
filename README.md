@@ -39,7 +39,7 @@ You'll be assessed on the following points:
 * 🎯 writing unit tests
 * 😍 understanding accessiblity
 
-So give it a try, and do your best! Good luck.
+So give it a try and good luck!
 
 ## Available Scripts
 
