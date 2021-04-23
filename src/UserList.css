@@ -1,0 +1,7 @@
+.UserList {
+  height: 40vh;
+  border: 1px solid;
+  margin: 1vmin 0;
+  border-radius: 1vmin;
+  overflow: auto;
+}
