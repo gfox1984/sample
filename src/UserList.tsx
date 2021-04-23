@@ -5,7 +5,7 @@ import './UserList.css';
 interface Props {
   users?: User[];
   selectedIds?: string[];
-  onSelect?: (ids: string[]) => {}
+  onSelect?: (ids: string[]) => void
 }
 
 const UserList: FC<Props> = ({ users = [], selectedIds = [], onSelect}) => {
