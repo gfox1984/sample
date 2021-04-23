@@ -14,6 +14,9 @@ The goal is to assess your skills working with React, and in particular with:
 
 ## Instructions
 
+The application must show a list of selectable users. When selecting users, a greeting message is displayed with their names. 
+The recommanded approach is:
+
 1. Implement the `useUsers` hook in _hooks.ts_, so that it returns the list of users sent by `fetchUsers`
 2. Pass the users returned by the hook to the `UserList` component in _App.tsx_
 3. Implement the `UserList` component in _UserList.tsx_, so that it renders the specified users with checkboxes
