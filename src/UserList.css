@@ -1,7 +1,19 @@
 .UserList {
+  display: inline-block;
+  min-width: 20vw;
   height: 40vh;
   border: 1px solid;
   margin: 1vmin 0;
   border-radius: 1vmin;
   overflow: auto;
+  text-align: left;
+}
+.UserList::-webkit-scrollbar {
+  width: 1.5vmin;
+}
+.UserList::-webkit-scrollbar-thumb {
+  background-color: currentColor;
+  background-clip: padding-box;
+  border-radius: .75vmin;
+  border: .5vmin solid transparent;
 }
