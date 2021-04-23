@@ -1,6 +1,45 @@
-# Getting Started with Create React App
+# Sample App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Goal
+
+The goal is to assess your skills working with React, and in particular with:
+
+- hooks
+- state
+- functional components
+- unit testing
+- TypeScript
+
+## Instructions
+
+1. Implement the `useUsers` hook in _hooks.ts_, so that it returns the list of users sent by `fetchUsers`
+2. Pass the users returned by the hook to the `UserList` component in _App.tsx_
+3. Implement the `UserList` component in _UserList.tsx_, so that it renders the specified users with checkboxes
+4. Display the name of the selected users in _App.tsx_
+5. Update the tests in _UserList.test.tsx_ so that they all pass
+
+The assessment can be completed without the need for additional packages, but feel free to add more. 
+
+## Result
+
+The end result should look something like this:
+
+![A list of users with checkboxes. A greeting message is displayed](/images/result.png)
+
+## Evaluation
+
+You'll be assessed on the following points:
+
+* ✔ thinking in React
+* 💪 experience with React
+* 👌 fluency with TypeScript and ECMAScript
+* 😎 mastering HMTL and CSS
+* 🎯 writing unit tests
+* 😍 understanding accessiblity
+
+So give it a try, and do your best! Good luck.
 
 ## Available Scripts
 
